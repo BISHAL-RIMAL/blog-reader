@@ -47,7 +47,7 @@ function App() {
   return (
     <div>
       <h1>Blog Reader</h1>
-      <select onChange={Dropdown} value={user}>
+      <select className="select" onChange={Dropdown} value={user}>
         <option value="">All</option>
         <option value="1">User 1</option>
         <option value="2">User 2</option>
